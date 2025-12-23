@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UserProfileRegistration">
         <activity
+            android:name=".ui.UpdateProfileActivity"
+            android:exported="false" />
+        <activity
             android:name=".ui.SingleProfileActivity"
             android:exported="false" />
         <activity
